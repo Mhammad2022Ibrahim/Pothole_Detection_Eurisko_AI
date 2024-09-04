@@ -4,7 +4,7 @@
 **Overview**
 ------------
 
-This project aims to develop a pothole detection system using deep learning techniques. The system classifies potholes into three classes: safe, medium, and risk-pothole, based on their severity. The models used include the YOLOv8-seg series (small, large, and x-large) for object detection and segmentation, as well as the MiDaS model for depth estimation.
+This project aims to develop a pothole detection system using deep learning techniques. The system classifies potholes into three classes: safe, medium, and risk-pothole, based on their severity. The models used include the YOLOv8-seg x-large for object detection and segmentation, as well as the MiDaS model for depth estimation.
 
 **System Architecture**
 ---------------------
@@ -58,20 +58,12 @@ To run this project, you need to install the following packages:
 * timm
 * gradio
 
-You can install these packages using pip:
-`!pip install -r requirements.txt`
-
-
-Verify
-
-Open In Editor
-Edit
-Copy code
 **Installation**
 ---------------
 
 To install the required packages, run the following command:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 
 License
@@ -80,6 +72,7 @@ This project is licensed under the MIT License.
 Acknowledgments
 This project was developed using the following resources:
 
-YOLOv8-seg model: https://github.com/ultralytics/yolov8
-MiDaS model: https://github.com/isl-org/MiDas
-Gradio: https://gradio.app/
+Dataset in Roboflow: https://universe.roboflow.com/potholesdetection-aq76f/detection-potholes-classes
+YOLOv8-seg model: [https://github.com/ultralytics/yolov8](https://docs.ultralytics.com/tasks/segment/)
+MiDaS model: [https://github.com/isl-org/MiDas](https://pytorch.org/hub/intelisl_midas_v2/)
+Gradio: [https://gradio.app/](https://www.gradio.app/docs)
