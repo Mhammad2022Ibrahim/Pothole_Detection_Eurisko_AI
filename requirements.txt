@@ -1,0 +1,6 @@
+ultralytics==8.2.87
+torch==1.1.44
+roboflow==1.1.44
+cv2==4.10.0
+timm==1.0.9
+gradio==4.42.0
